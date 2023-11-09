@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portofolio</title>
+    <link rel="stylesheet" href="prasanth.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/4c07b2f586.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Header section-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://s3.eu-west-1.amazonaws.com/redsys-prod/articles/eac8c6d69d1ce8ce0ff8824d/images/teaserImage_xxxx_croppedTeaserImage.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificaton">Cerification</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>   
+            </div>
+            </nav>
+            <div class="nav-box">
+                <div class="header-text">
+                    <p>Welcome to my webpage</p>
+                    <h1>Hello,Everyone i'm <span>M.Prasanth</span><br>From India.</h1>
+                    <p class="hello">I'm excited to share about webpage to you all and this was my first project to start my journey as a web developer.
+
+                        
+                    </p>
+                </div>
+                <div class="header-image">
+                    <img src="prashu.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me.jpg" alt="">
+                </div>
+                <div class="about col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="hii">Hello my self M.Prasanth <br>I am doing my gradation at <span class="college"><a href="https://nbkrist.co.in/">NBKR institute of science and technology.</a></span><br>2nd year student <br>My hobbies are watching movies,Browsing net,learning new things. <br></p>
+                    <div class="tab-titles">
+                        <p class="tab-links-active-links" onclick="opentab('skills')">Skills</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>PROGRAMMING LANGUAGE <hr><br>C <br>Python</li>
+                            <li>WEB DEVELOPMENT <hr><br>HTML <br>CSS <br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <li><span>2023-current</span><br>fresher: <br>As a fresher i am eager to pursive a job in IT industry to develop my skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            
+                             <p class="donkey">Education</p>
+                            <li>SCHOOLING <br><hr>sushruta E.M high school <br><span>2010-2020</span><br>I did my schooling at susruta E.M High school,Manubolu <br>Secured 9.5 CGPA</li>
+                            <li>INTERMEDIATE <br><hr>Government junior college <br><span>2020-2022</span><br>I did my intermediate at Government junior college,Manubolu. <br>Secured 817 marks</li>
+                            <li>GRADUATION <br><hr>NBKR institute of science and technology <br><span>2022-2026</span><br>Currently B.tech(CSE) || <sup> nd </sup>Year student.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--cerificate-section-->
+<div id="certification">
+    <div class="container">
+        <h1 class="sub-title">My certification</h1>
+        <div class="certification-list">
+            <div><img src="tcs.jpg" alt=""></div>
+            <div><img src="oasis offer letter.png" alt=""></div>
+            <div><img src="bharat intern offer letter.png" alt=""></div>
+            <div><img src="swecha.jpg" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<!--contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>mavillaprasanth593@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7032665006</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/prasanth-mavilla-33066926b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/ghost_prashu?igshid=NzZlODBkYWE4Ng=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="my_resume.docx" download class="btn btn2">DOwnload CV</a>
+            </div>
+            <div class="contact-right"><form name="submit-to-google-sheet"><input type="text" name="Name" placeholder="Your Name" required><input type="email" name="Email" placeholder="Your Email" required><textarea name="Message" rows="6" placeholder="Your Messaage" required></textarea><button type="Submit"></button></form><span id="msg"></span></div>
+        </div>
+    </div>
+</div>
+<div class="Copyright">
+    <p>Copyright @portofolio Made by<i class="fa-solid fa-heart"></i> <G class="PRASANTH"></G></p>
+</div>
+</body>
+</html>
